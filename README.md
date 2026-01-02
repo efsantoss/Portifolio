@@ -1,108 +1,58 @@
-# Personal Portfolio Website
+# Enzo Fischer Portfolio
 
-This is my personal portfolio website built to showcase who I am, what I do, and the technologies I work with as a Software Engineer.
-
-The project is designed as a living portfolio, similar to a GitHub README but transformed into a real, production ready website. It highlights my skills, professional experience, and selected projects with a strong focus on clean architecture, scalability, and best engineering practices.
-
----
-
-## Tech Stack
-
-Frontend  
-React  
-TypeScript  
-Vite  
-Tailwind CSS  
-
-Planned Backend  
-Java  
-Spring Boot  
-Gradle  
-
-Deployment  
-Frontend hosted as a static site  
-Backend exposed via REST API  
-Custom domain configuration planned  
+A clean, modern, and professional full-stack developer portfolio built to showcase my identity, projects, and the technologies I master.  
+This project was designed with a strong focus on clarity, scalability, and real-world development practices.
 
 ---
 
-## Project Structure
+## 🌐 Overview
 
-The project follows a clean and scalable frontend architecture
+This portfolio presents my professional background, technical skills, and selected projects through a modern web interface.  
+The **Frontend** is built with React and Vite, while the **Backend** is powered by Java 21 and Spring Boot, following a clean architecture approach.
 
-src  
-components, reusable UI components  
-pages, main application pages  
-sections, page sections such as hero, skills, and projects  
-services, API and data access  
-hooks, custom React hooks  
-assets, images and static resources  
-styles, global styles and theme  
+## 🛠 Tech Stack
+
+### Frontend
+- **React** (Vite)
+- **TypeScript**
+- **HTML5 & CSS3**
+
+### Backend
+- **Java 21**
+- **Spring Boot 3**
+- **Gradle**
+- **REST APIs**
+
+### Tools & Practices
+- **Git & GitHub**
+- **Clean Architecture**
+- **Separation of Concerns**
+- **Environment-based Configuration**
 
 ---
 
-## Getting Started
+⚙️ Running the Project Locally
+1. Frontend
 
-To run this project locally, follow the steps below.
+cd portfolio-frontend
 
-### Prerequisites
-
-Node.js version 18 or higher  
-npm installed  
-
-### Installation
-
-1. Clone the repository
-git clone https://github.com/efsantoss/Portifolio.git
-
-
-2. Access the project folder
-cd your-repository-name
-
-
-3. Install dependencies
 npm install
 
-
-4. Start the development server
 npm run dev
 
+2. Backend
 
-5. Open your browser and access
-http://localhost:5173
+cd portfolio-backend/backend
 
+./gradlew build
 
----
-
-## Purpose of This Project
-
-This portfolio was built to represent my professional profile as a Software Engineer, not just visually but technically.
-
-It demonstrates  
-component based architecture  
-modern frontend tooling  
-clean code practices  
-preparation for backend integration  
-production oriented mindset  
-
-The backend will be implemented using Java and Spring Boot with Gradle, exposing APIs to dynamically load projects, experience, and contact information.
+./gradlew bootRun
 
 ---
 
-## Future Improvements
+## 📂 Project Structure
 
-Integration with a Spring Boot backend  
-SEO optimization  
-Internationalization  
-Analytics and monitoring  
-Custom domain and hosting configuration  
-
----
-
-## Contact
-
-LinkedIn:  https://www.linkedin.com/in/enzo-fischer-/
-GitHub:  https://github.com/efsantoss
-
-Feel free to connect or reach out for collaboration opportunities.
-
+```text
+.
+├── portfolio-frontend/      # React + Vite application
+└── portfolio-backend/       # Spring Boot application
