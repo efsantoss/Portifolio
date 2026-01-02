@@ -1,19 +1,19 @@
-# Pastas de dependências e build
+# Build and Dependencies Folder
 node_modules
 dist
 
-# Variáveis de ambiente
+# Envinrolment Variables
 .env
 .env.local
 .env.production
 .env.development
 
-# Configurações de IDE
+# IDE configs
 .vscode
 .idea
 .DS_Store
 
-# Arquivos do Backend (conforme solicitado)
+# Backend files
 portfolio-backend/backend/.gitattributes
 portfolio-backend/backend/.gitignore
 portfolio-backend/backend/build.gradle
