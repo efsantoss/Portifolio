@@ -53,4 +53,56 @@ npm installed
 ### Installation
 
 1. Clone the repository
+git clone https://github.com/efsantoss/Portifolio.git
+
+
+2. Access the project folder
+cd your-repository-name
+
+
+3. Install dependencies
+npm install
+
+
+4. Start the development server
+npm run dev
+
+
+5. Open your browser and access
+http://localhost:5173
+
+
+---
+
+## Purpose of This Project
+
+This portfolio was built to represent my professional profile as a Software Engineer, not just visually but technically.
+
+It demonstrates  
+component based architecture  
+modern frontend tooling  
+clean code practices  
+preparation for backend integration  
+production oriented mindset  
+
+The backend will be implemented using Java and Spring Boot with Gradle, exposing APIs to dynamically load projects, experience, and contact information.
+
+---
+
+## Future Improvements
+
+Integration with a Spring Boot backend  
+SEO optimization  
+Internationalization  
+Analytics and monitoring  
+Custom domain and hosting configuration  
+
+---
+
+## Contact
+
+LinkedIn:  https://www.linkedin.com/in/enzo-fischer-/
+GitHub:  https://github.com/efsantoss
+
+Feel free to connect or reach out for collaboration opportunities.
 
