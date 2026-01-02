@@ -9,8 +9,9 @@ dist
 .env.development
 
 # IDE configs
-.vscode
 .idea
+.vscode
+*.iml
 .DS_Store
 
 # Backend files

@@ -1,4 +1,4 @@
-export async function fetchProjects() {
-  const response = await fetch("http://localhost:8080/api/projects");
-  return response.json();
+export async function getProjects() {
+  const response = await fetch('http://localhost:8080/projects')
+  return response.json()
 }

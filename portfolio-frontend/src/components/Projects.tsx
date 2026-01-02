@@ -1,30 +1,29 @@
-import { useEffect, useState } from "react";
-import { fetchProjects } from "../services/projectService";
+import { useEffect, useState } from 'react'
+import { getProjects } from '../services/projectService'
 
-type Project = {
-  title: string;
-  description: string;
-  technologies: string;
-};
+interface Project {
+  id: number
+  name: string
+  description: string
+}
 
 export function Projects() {
-  const [projects, setProjects] = useState<Project[]>([]);
+  const [projects, setProjects] = useState<Project[]>([])
 
   useEffect(() => {
-    fetchProjects().then(setProjects);
-  }, []);
+    getProjects().then(setProjects)
+  }, [])
 
   return (
     <section>
       <h2>Projects</h2>
 
-      {projects.map((project, index) => (
-        <div key={index}>
-          <h3>{project.title}</h3>
+      {projects.map(project => (
+        <div key={project.id}>
+          <h3>{project.name}</h3>
           <p>{project.description}</p>
-          <span>{project.technologies}</span>
         </div>
       ))}
     </section>
-  );
+  )
 }
