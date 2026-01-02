@@ -21,6 +21,5 @@ portfolio-backend/backend/gradle/
 portfolio-backend/backend/gradlew
 portfolio-backend/backend/gradlew.bat
 portfolio-backend/backend/settings.gradle
-portfolio-backend/backend/src/main/java/com/enzofischer/portfolio/PortfolioBackendApplication.java
 portfolio-backend/backend/src/main/resources/
 portfolio-backend/backend/src/test/
