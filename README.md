@@ -61,3 +61,9 @@ cd portfolio-backend/backend
 .
 ├── portfolio-frontend/      # React + Vite application
 └── portfolio-backend/       # Spring Boot application
+```
+### 📩 Contact
+LinkedIn: [linkedin.com/in/enzo-fischer-/](https://www.linkedin.com/in/enzo-fischer-/)
+GitHub: [efsantoss](https://github.com/efsantoss)
+
+Feel free to connect or reach out for collaboration opportunities!
