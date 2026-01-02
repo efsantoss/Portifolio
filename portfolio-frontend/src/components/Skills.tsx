@@ -17,7 +17,7 @@ export const Skills = () => {
   ];
 
   return (
-    <div className="skills-section">
+    <section id="skills" className="skills-section">
       <h3>Technical Expertise</h3>
       <div className="skills-grid">
         {skills.map((skill) => (
@@ -25,7 +25,7 @@ export const Skills = () => {
             <img src={`https://skillicons.dev/icons?i=${skill.icon}`} alt={skill.name} />
           </div>
         ))}
-        {/* Salesforce e Jira*/}
+        {/* Salesforce e Jira */}
         <div className="skill-item">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/salesforce/salesforce-original.svg" alt="Salesforce"/>
         </div>
@@ -33,6 +33,6 @@ export const Skills = () => {
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="Jira" />
         </div>
       </div>
-    </div>
+    </section>
   )
 }
