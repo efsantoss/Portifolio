@@ -6,10 +6,11 @@ export function Footer() {
       <div className="footer-grid">
         <div className="footer-about">
           <h3 className="gradient-text">Enzo Fischer</h3>
-          <p>Architecting robust solutions at PwC Brasil. Specializing in Salesforce, Cloud, and AI-driven systems.</p>
+          {}
+          <p>Architecting robust solutions at PwC Brasil. Specializing in Full Stack, Salesforce, Cloud, and AI-driven systems.</p>
           <div className="footer-social-links">
-            <a href="https://linkedin.com/in/enzo-fischer-/" target="_blank" className="footer-social-btn">LinkedIn</a>
-            <a href="https://github.com/efsantoss" target="_blank" className="footer-social-btn">GitHub</a>
+            <a href="https://linkedin.com/in/enzo-fischer-/" target="_blank" rel="noreferrer" className="footer-social-btn">LinkedIn</a>
+            <a href="https://github.com/efsantoss" target="_blank" rel="noreferrer" className="footer-social-btn">GitHub</a>
           </div>
         </div>
 
@@ -17,7 +18,6 @@ export function Footer() {
           <h4>Navigation</h4>
           <nav className="footer-nav">
             <a href="#">Home</a>
-            {}
             <a href="#skills">Skills</a>
             <a href="#portfolio">Projects</a>
             <a href="#contact">Contact</a>
@@ -32,7 +32,7 @@ export function Footer() {
         </div>
       </div>
       <p style={{ textAlign: 'center', marginTop: '4rem', opacity: 0.5, fontSize: '0.8rem' }}>
-        © 2024 Enzo Fischer. Built with React & Nebula Forge.
+        © 2025 Enzo Fischer. Built with React & Nebula Forge.
       </p>
     </footer>
   );

@@ -19,7 +19,7 @@ export default function App() {
           <div className="about-container">
             <p>
               Software Engineer with a global mindset and extensive experience in <strong>Full Stack Development and Java/Apex Backend Engineering</strong>. 
-              Currently at <strong>PwC Brasil</strong>, I specialize in <strong>Salesforce Data Cloud and AI-driven solutions</strong>, designing architectures that support complex digital transformations.
+              Currently at <strong>PwC Brasil</strong>, I specialize in <strong>E2E Solutions, Software Engineering, Salesforce Development & Admin, Cloud and AI-driven solutions</strong>, designing architectures that support complex digital transformations.
             </p>
             <p>
               My academic journey spans from an <strong>Associate Degree in ICT from Pacific Link College (Canada)</strong> to a <strong>Bachelor's in Information Systems at PUC-Campinas</strong>. 
