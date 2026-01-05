@@ -31,29 +31,10 @@ The **Frontend** is built with React and Vite, while the **Backend** is powered 
 
 ---
 
-## ⚙️ Running the Project Locally
+## ⚙️ Project Link
 
-### 1. Frontend
-```bash
-cd portfolio-frontend
-```
-```bash
-npm install
-```
-```bash
-npm run dev
-```
-### 2. Backend
-```bash
-cd portfolio-backend/backend
-```
-```bash
-./gradlew build
-```
-```bash
-./gradlew bootRun
-```
----
+Portifolio: https://porrtifolio-enzo-fischer.vercel.app/
+
 
 ## 📂 Project Structure
 
